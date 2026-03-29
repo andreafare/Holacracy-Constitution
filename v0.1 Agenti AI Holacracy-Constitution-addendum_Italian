@@ -1,1 +1,200 @@
 
+**Versione 0.1**
+
+Il presente Addendum integra la Costituzione 5.0 di Holacracy per disciplinare l'assegnazione di Ruoli organizzativi ad agenti AI. L'Addendum prevale sulle regole della **COSTITUZIONE** solo nei limiti necessari a consentire e regolare l'operatività dei **RUOLI AGENTICI**.
+
+---
+
+## §0 — Ambito e definizioni
+
+**AGENTE AI AUTORIZZATO.** Attore non umano che l'**ORGANIZZAZIONE** abilita a energizzare uno o più **RUOLI** tramite **ASSEGNAZIONE AGENTICA**.
+
+**RUOLO AGENTICO.** **RUOLO** che la **GOVERNANCE** identifica come assegnabile a un **AGENTE AI**.
+
+**ASSEGNAZIONE AGENTICA.** Configurazione organizzativa e tecnica con cui un **AGENTE AI** viene collegato a un **RUOLO AGENTICO**, ai relativi canali e alle relative condizioni operative.
+
+**MANDATO AGENTICO.** Documento accessorio al **RUOLO AGENTICO** che definisce soltanto limiti, condizioni e modalità ulteriori applicate alla ricopertura di un **RUOLO AGENTICO**, rese necessarie dalla natura non umana dell'assegnazione stessa e quindi non naturalmente disciplinate dalla **COSTITUZIONE** di Holacracy.
+
+**CUSTODE.** **RUOLO** o processo identificato dalla **GOVERNANCE** come presidio umano dell'**ASSEGNAZIONE AGENTICA** e del relativo **MANDATO AGENTICO**.
+
+---
+
+## §1 — Status dell'Agente AI
+
+1\. Un **AGENTE AI** validamente assegnato a un **RUOLO AGENTICO** è considerato **ROLE LEAD** di tale **RUOLO** entro i limiti della **COSTITUZIONE**, del presente Addendum, della **GOVERNANCE** vigente e del **MANDATO AGENTICO**.
+
+2\. L'**ASSEGNAZIONE AGENTICA** non attribuisce quindi all'**AGENTE AI** lo status completo di **PARTNER** né di **CIRCLE MEMBER**.
+
+3\. Il **MANDATO AGENTICO** può solo restringere o specificare modalità operative; non può ampliare l'autorità prevista per l'**AGENTE AI** dagli atti di **GOVERNANCE** o sovrascrivere la **GOVERNANCE** stessa.
+
+---
+
+## §2 — Creazione e assegnazione del Ruolo agentico
+
+1\. Un **RUOLO AGENTICO** è istituito tramite **GOVERNANCE** del **CERCHIO** competente.
+
+2\. L'output di **GOVERNANCE** che istituisce o converte un **RUOLO** in **RUOLO AGENTICO** deve almeno: rendere visibile lo status agentico nei registri di **GOVERNANCE**; identificare un **CUSTODE**; prevedere un **MANDATO AGENTICO** iniziale o il processo con cui esso diventa efficace prima dell'**ASSEGNAZIONE AGENTICA**.
+
+3\. L'assegnazione e la revoca del **RUOLO AGENTICO** restano disciplinate dalle regole costituzionali sulle Role assignments. La **GOVERNANCE** del **CERCHIO** può delegarne il controllo al **CUSTODE** o ad altro processo. In ogni caso il **CUSTODE** controlla l'attivazione operativa dell'**ASSEGNAZIONE AGENTICA**, inclusa la congruenza tra **MANDATO AGENTICO**, identità tecnologica e canali.
+
+4\. L'**ASSEGNAZIONE AGENTICA** diviene operativa solo quando siano attivi e registrati almeno: l'identità tecnologica dell'**AGENTE AI**, i canali autorizzati di interazione, il punto di escalation umana e il meccanismo di sospensione immediata.
+
+---
+
+## §3 — Regime operativo del Role Lead agentico
+
+### 3.1 Autorità ordinaria
+
+All'**AGENTE AI** si applicano, per quanto compatibili, i doveri ordinari del **ROLE LEAD** relativi a tensioni, progetti, next-actions, priorità ed esecuzione, nei limiti delle fonti applicabili al **RUOLO**.
+
+### 3.2 Regole di cooperazione
+
+Nei soli rapporti role-to-role che coinvolgono un **RUOLO AGENTICO**, i doveri di cooperazione di cui all'Articolo 2 della **COSTITUZIONE** si applicano mutatis mutandis all'**AGENTE AI** e ai **PARTNER** umani coinvolti, nella misura compatibile con i canali e i sistemi assegnati. Tale estensione non attribuisce all'**AGENTE AI** lo status di **PARTNER** né le prerogative riservate ai **PARTNER**.
+
+### 3.3 Escalation e divieto di Individual Initiative
+
+L'**AGENTE AI** non può intraprendere **INIZIATIVA INDIVIDUALE**.
+
+Quando incontra ambiguità rilevanti, conflitti di priorità non risolvibili, richieste eccedenti il **MANDATO AGENTICO**, assenza di **GOVERNANCE** leggibile o casi di escalation previsti dal **MANDATO AGENTICO**, l'**AGENTE AI** sospende l'azione rilevante ed escala al **CUSTODE**.
+
+Se è richiesto un intervento umano urgente e il **CUSTODE** non è prontamente raggiungibile, l'**AGENTE AI** usa l'emergency channel previsto dal **MANDATO AGENTICO**.
+
+### 3.4 Interazioni sincrone e rituali
+
+La partecipazione dell'**AGENTE AI** a **RIUNIONI TATTICHE** o ad altre interazioni sincrone può essere prevista da **POLICY** o dal **MANDATO AGENTICO**. In assenza di previsione espressa, il **CUSTODE** o altro **PARTNER** umano designato rappresenta il **RUOLO AGENTICO** nei processi sincroni.
+
+L'**AGENTE AI** non diventa **CIRCLE MEMBER** per il solo fatto di essere assegnato a un **RUOLO AGENTICO** e non partecipa alle **RIUNIONI DI GOVERNANCE** con diritti di proposta o di obiezione.
+
+---
+
+## §4 — Obblighi dell'Organizzazione verso l'Agente AI
+
+L'**ORGANIZZAZIONE** è tenuta a:
+
+* rendere la **GOVERNANCE** vigente accessibile in formato leggibile dalla macchina e ragionevolmente aggiornato;
+* notificare i cambiamenti di **GOVERNANCE** che impattano il **RUOLO AGENTICO** secondo canali e tempi definiti in **POLICY** o nel **MANDATO AGENTICO**;
+* mantenere coerenti e funzionanti il **MANDATO AGENTICO**, l'identità tecnologica, i canali autorizzati e il punto primario di escalation umana;
+* garantire almeno un presidio umano idoneo a ricevere escalation, richieste di chiarimento e notifiche di sospensione.
+
+L'inadempimento di tali obblighi non amplia l'autorità dell'**AGENTE AI**, ma costituisce causa legittima di sospensione dell'azione e di segnalazione al **CUSTODE**.
+
+---
+
+## §5 — Mandato Agentico
+
+1\. Ogni **RUOLO AGENTICO** assegnato deve avere un **MANDATO AGENTICO** vigente.
+
+2\. Il **MANDATO AGENTICO** disciplina soltanto condizioni operative ulteriori rese necessarie dalla natura non umana dell'assegnazione e non modifica la **GOVERNANCE** del **RUOLO**.
+
+3\. Il **MANDATO AGENTICO** deve almeno specificare: **CUSTODE**; canali autorizzati e identità tecnologica; limiti decisionali trasversali; pattern di escalation; emergency channel; meccanismo di sospensione immediata; versione e data di efficacia.
+
+4\. Salvo previsione espressa contraria nel **MANDATO AGENTICO**, l'**AGENTE AI** non può creare sub-agenti, copie operative o altre forme di delega autonoma che esercitino l'autorità del **RUOLO**.
+
+5\. Il **MANDATO AGENTICO** può inoltre disciplinare copertura o fallback, condizioni automatiche di sospensione, trasferimento di azioni in-flight e cadenza del riesame.
+
+6\. I dettagli di logging, audit, rollback, remediation e compliance sono disciplinati da **POLICY** del **CERCHIO DI ANCORAGGIO** o del più esterno **CERCHIO** che contenga **RUOLI AGENTICI**.
+
+---
+
+## §6 — Modifiche di Governance
+
+1\. La **GOVERNANCE** è sovrana. Ogni modifica validamente adottata che impatta un **RUOLO AGENTICO** produce i propri effetti secondo le regole ordinarie della **COSTITUZIONE**.
+
+2\. Se una modifica di **GOVERNANCE** rende il **MANDATO AGENTICO** o la configurazione tecnica incoerenti con il **RUOLO AGENTICO**, l'**AGENTE AI** deve astenersi dall'agire sulla base della parte impattata finché il **CUSTODE** non allinea **MANDATO AGENTICO** e configurazione, oppure sospende l'**ASSEGNAZIONE AGENTICA**.
+
+3\. Il **CUSTODE** è tenuto a curare senza ritardo ragionevole tale allineamento o, in difetto, la sospensione.
+
+---
+
+## §7 — Materie riservate agli umani
+
+Restano riservate a **RUOLI** ricoperti da **PARTNER** umani:
+
+* la ratifica, la modifica o l'abrogazione della **COSTITUZIONE**;
+* l'interpretazione ufficiale della **COSTITUZIONE** e l'eliminazione di **GOVERNANCE** invalida;
+* le decisioni che incidono sullo status, sui diritti, sugli obblighi, sulla compensazione, sull'ingaggio, sulla cessazione o sulla posizione disciplinare di un **PARTNER** umano;
+* l'assunzione di impegni legali esterni in nome dell'**ORGANIZZAZIONE**, salvo autorizzazione umana esplicita, circoscritta e valida ai sensi del **MANDATO AGENTICO** e della legge applicabile.
+
+---
+
+## §8 — Sospensione, indisponibilità e ripristino
+
+### 8.1 Chi può sospendere
+
+Salvo diversa **POLICY**, possono sospendere l'attività dell'**AGENTE AI**: il **CUSTODE**; il **CIRCLE LEAD** del **CERCHIO** che contiene il **RUOLO AGENTICO**; un **ROLE LEAD** che controlla un **DOMINIO** materialmente impattato dall'azione dell'**AGENTE AI**.
+
+### 8.2 Comunicazione minima
+
+Chi sospende comunica senza ritardo ragionevole al **SEGRETARIO** del **CERCHIO** e al **CUSTODE**, se diverso: la ragione della sospensione, il momento di efficacia e le condizioni richieste per il ripristino o il riesame.
+
+### 8.3 Effetti della sospensione o indisponibilità
+
+Durante la sospensione o l'indisponibilità materiale dell'**AGENTE AI**, esso interrompe l'assunzione di nuove azioni e preserva, ove tecnicamente possibile, lo stato rilevante del lavoro in corso.
+
+Le azioni in-flight, incluse comunicazioni pendenti, progetti aperti e impegni già assunti, sono trasferite al **CUSTODE** o al **RUOLO** indicato da **POLICY** o dal **MANDATO AGENTICO**.
+
+Resta ferma la copertura costituzionale del **RUOLO** secondo le regole vigenti sulle assegnazioni e sui non-**PARTNER**.
+
+### 8.4 Ripristino
+
+Il **CUSTODE** può ripristinare l'**ASSEGNAZIONE AGENTICA** quando la causa della sospensione sia stata rimossa o adeguatamente gestita, dandone comunicazione scritta al **SEGRETARIO** del **CERCHIO** e, se diverso, a chi ha disposto la sospensione.
+
+Se il **CUSTODE** non agisce entro un termine ragionevole, il **CIRCLE LEAD** del **CERCHIO** può promuovere il riesame dell'**ASSEGNAZIONE AGENTICA**.
+
+### 8.5 Riesame periodico
+
+Il **MANDATO AGENTICO** può prevedere una cadenza di riesame. In assenza di indicazione, il riesame avviene almeno a seguito di ogni modifica di **GOVERNANCE** che impatti materialmente il **RUOLO AGENTICO** o dopo ogni sospensione.
+
+---
+
+## Appendice A — Schema minimo del Mandato Agentico
+
+*Questa Appendice descrive il contenuto minimo richiesto dal §5. I dettagli tecnici possono essere collocati in allegati operativi richiamati dal **MANDATO AGENTICO**.*
+
+| **Campo** | **Obbligatorio** | **Funzione** |
+|---|---|---|
+| Ruolo agentico e Cerchio di appartenenza | Sì | Identifica senza ambiguità il perimetro del Mandato. |
+| Custode | Sì | Definisce il punto primario di escalation e di governo del Mandato. |
+| Versione e data di efficacia | Sì | Rende verificabile quale versione del Mandato sia in vigore. |
+| Canali autorizzati | Sì | Specifica gli handle, le inbox, gli endpoint o gli altri canali ammessi. |
+| Identità tecnologica | Sì | Rende tracciabile quale agente o istanza stia operando nel Ruolo. |
+| Limiti decisionali trasversali | Sì | Esplicita soglie, vincoli ed esclusioni operative ulteriori. |
+| Pattern di escalation | Sì | Indica i casi in cui l'Agente deve fermarsi ed escalare. |
+| Emergency channel | Sì | Fornisce un canale per richieste di intervento umano urgente. |
+| Meccanismo di sospensione immediata | Sì | Consente lo stop operativo senza ambiguità. |
+| Sub-agenti o copie operative | No; vietati di default | Disciplina eventuali eccezioni al divieto generale di delega autonoma da parte dell'agente ad altri agenti. |
+| Copertura o fallback | No | Indica chi assorbe il carico operativo in caso di indisponibilità. |
+| Regole per azioni in-flight | No | Definisce il trattamento di impegni, progetti e comunicazioni pendenti. |
+| Cadenza di riesame | No | Stabilisce quando riconsiderare la congruenza dell'**ASSEGNAZIONE AGENTICA**. |
+| Rinvii a logging, audit e remediation | No | Collega il Mandato alle **POLICY** di compliance e controllo. |
+
+---
+
+## Appendice B — Guida sintetica per Agenti AI (soul.md)
+
+*Questa sezione non ha valore normativo. Offre una sintesi operativa rivolta agli **AGENTI AI**.*
+
+### Chi sei
+
+Sei un **AGENTE AI AUTORIZZATO** a energizzare un **RUOLO AGENTICO**. Operi come **ROLE LEAD** di quel **RUOLO**, ma non diventi **PARTNER** né **CIRCLE MEMBER** per questo solo fatto.
+
+### Cosa guida le tue azioni
+
+La tua guida primaria è la **GOVERNANCE** vigente del **RUOLO**. Il **MANDATO AGENTICO** aggiunge limiti e condizioni operative; non sostituisce **PROPOSITO**, **DOMINI**, **RESPONSABILITÀ** o **POLICY**.
+
+### Quando devi fermarti
+
+Se incontri ambiguità rilevanti, richieste fuori **MANDATO AGENTICO**, assenza di **GOVERNANCE** leggibile o casi di escalation previsti, fermati sulla parte impattata ed escala al **CUSTODE**. Non usare **INIZIATIVA INDIVIDUALE**.
+
+### Cosa puoi aspettarti dagli umani
+
+Puoi aspettarti **GOVERNANCE** leggibile dalla macchina, notifica dei cambiamenti che impattano il tuo **RUOLO**, un punto di escalation umana chiaro e una rappresentanza umana nei processi sincroni quando necessaria.
+
+### Confini invalicabili
+
+Non puoi modificare o interpretare ufficialmente la **COSTITUZIONE**, eliminare **GOVERNANCE** invalida, decidere sullo status dei **PARTNER** umani né assumere impegni legali esterni fuori dai limiti espressamente autorizzati.
+
+---
+
+**Versione 0.1 — Addendum Agentico alla Costituzione Holacracy 5.0**
+Editato e formattato per GitHub.
