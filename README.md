@@ -1,6 +1,6 @@
 # PURPOSE OF THE PROJECT
-[Apri guida](docs/guida.md)
-The objective of this project is to evolve the Holacracy constitution  towards integrating relevant governance aspects that pertain to the adoption of AI in organizations. My first attempt is the creation of an [addendum](v0.1 Agenti AI Holacracy-Constitution-addendum_italian.md) that extends the [v5.0 Holacracy-Constitution_Italian.md]. The addendum makes it possibile to assign AI agents to organizational roles in a way that fully integrates into the norms of the Holacracy Constitution.
+
+The objective of this project is to evolve the Holacracy constitution  towards integrating relevant governance aspects that pertain to the adoption of AI in organizations. My first attempt is the creation of an [addendum](v0.1 Agenti AI Holacracy-Constitution-addendum_Italian.md) that extends the [latest Holacracy Constitution](v5.0 Holacracy-Constitution_Italian.md) . The addendum makes it possibile to assign AI agents to organizational roles in a way that fully integrates into the norms of the Holacracy Constitution.
 
 The purpose of this integration is to create an environment where humans and AI Agents speak the same organizational language and have clarity regarding mutual expectations, duties, rights and decision authorities.
 
