@@ -1,71 +1,71 @@
-# Deploy di Olos su Railway
+# Olos Deployment on Railway
 
-Guida per deployare l'agente Olos (OpenClaw) su Railway.
+Guide to deploy the Olos agent (OpenClaw) on Railway.
 
-## Prerequisiti
+## Prerequisites
 
-- Account [Railway](https://railway.app)
-- API key di un provider AI (es. Anthropic per Claude)
-- Questa repository clonata
+- [Railway](https://railway.app) Account
+- API key of an AI provider (e.g., Anthropic for Claude)
+- This cloned repository
 
-## 1. Deploy con un click
+## 1. One-click Deploy
 
-Usa il template ufficiale OpenClaw per Railway:
+Use the official OpenClaw template for Railway:
 
-**[Deploy su Railway](https://railway.com/deploy/clawdbot-railway-template)**
+**[Deploy on Railway](https://railway.com/deploy/clawdbot-railway-template)**
 
-## 2. Configurazione variabili d'ambiente
+## 2. Environment Variables Configuration
 
-Nel pannello Railway del servizio, imposta:
+In the Railway panel of the service, set:
 
-### Obbligatorie
+### Required
 
-| Variabile | Valore | Note |
+| Variable | Value | Notes |
 |---|---|---|
-| `OPENCLAW_GATEWAY_PORT` | `8080` | Deve coincidere con la porta HTTP Proxy |
-| `OPENCLAW_GATEWAY_TOKEN` | `<il-tuo-token-segreto>` | Credenziale admin — tienila al sicuro |
+| `OPENCLAW_GATEWAY_PORT` | `8080` | Must match the HTTP Proxy port |
+| `OPENCLAW_GATEWAY_TOKEN` | `<your-secret-token>` | Admin credential — keep it safe |
 
-### Raccomandate
+### Recommended
 
-| Variabile | Valore | Note |
+| Variable | Value | Notes |
 |---|---|---|
-| `OPENCLAW_STATE_DIR` | `/data/.openclaw` | Persistenza configurazione tra redeploy |
-| `OPENCLAW_WORKSPACE_DIR` | `/data/workspace` | Directory di lavoro dell'agente |
+| `OPENCLAW_STATE_DIR` | `/data/.openclaw` | Configuration persistence across redeploys |
+| `OPENCLAW_WORKSPACE_DIR` | `/data/workspace` | Agent's working directory |
 
-## 3. Storage persistente
+## 3. Persistent Storage
 
-Aggiungi un **Volume** al servizio Railway montato su `/data`. Questo preserva configurazione, credenziali e workspace tra i redeploy.
+Add a **Volume** to the Railway service mounted on `/data`. This preserves configuration, credentials, and workspace across redeploys.
 
 ## 4. Networking
 
-Attiva **HTTP Proxy** sul servizio Railway, porta `8080`.
+Enable **HTTP Proxy** on the Railway service, port `8080`.
 
-## 5. Accesso all'interfaccia
+## 5. Interface Access
 
-Dopo il provisioning, recupera il dominio pubblico da Railway (Settings > Domains). L'interfaccia di controllo e disponibile su:
+After provisioning, retrieve the public domain from Railway (Settings > Domains). The control interface is available at:
 
 ```
-https://<tuo-dominio-railway>/openclaw
+https://<your-railway-domain>/openclaw
 ```
 
-Usa il token configurato in `OPENCLAW_GATEWAY_TOKEN` per autenticarti.
+Use the token configured in `OPENCLAW_GATEWAY_TOKEN` to authenticate.
 
-## 6. Configurazione del workspace di Olos
+## 6. Olos Workspace Configuration
 
-Una volta dentro la Control UI o via shell Railway, copia i file di questo workspace nell'agente:
+Once inside the Control UI or via Railway shell, copy the files of this workspace into the agent:
 
 ```bash
-# Dalla shell Railway o via openclaw CLI
+# From Railway shell or via openclaw CLI
 mkdir -p /data/workspace
 
-# Copia i file del workspace Olos
+# Copy Olos workspace files
 cp openclaw/AGENTS.md   /data/workspace/AGENTS.md
 cp openclaw/SOUL.md     /data/workspace/SOUL.md
 cp openclaw/IDENTITY.md /data/workspace/IDENTITY.md
 cp openclaw/USER.md     /data/workspace/USER.md
 ```
 
-In alternativa, configura `openclaw.json` per puntare il workspace alla cartella `openclaw/` di questa repo (se montata):
+Alternatively, configure `openclaw.json` to point the workspace to the `openclaw/` folder of this repo (if mounted):
 
 ```json5
 {
@@ -77,9 +77,9 @@ In alternativa, configura `openclaw.json` per puntare il workspace alla cartella
 }
 ```
 
-## 7. Configurazione modello AI
+## 7. AI Model Configuration
 
-Dalla Control UI o via `openclaw.json`:
+From the Control UI or via `openclaw.json`:
 
 ```json5
 {
@@ -89,15 +89,15 @@ Dalla Control UI o via `openclaw.json`:
 }
 ```
 
-## 8. Connessione canali (opzionale)
+## 8. Channel Connection (optional)
 
-Dalla Control UI o via `openclaw onboard`, collega i canali desiderati:
+From the Control UI or via `openclaw onboard`, connect the desired channels:
 
-- **Telegram** — crea un bot via @BotFather e inserisci il token
-- **WhatsApp** — scansiona il QR code
-- **Discord** — inserisci il bot token
+- **Telegram** — create a bot via @BotFather and enter the token
+- **WhatsApp** — scan the QR code
+- **Discord** — enter the bot token
 
-## 9. Verifica
+## 9. Verification
 
 ```bash
 openclaw --version
@@ -111,10 +111,10 @@ openclaw gateway status
 openclaw backup create
 ```
 
-Crea backup portabili ripristinabili su qualsiasi istanza OpenClaw.
+Creates portable backups that can be restored on any OpenClaw instance.
 
-## Manutenzione
+## Maintenance
 
-- Aggiorna OpenClaw: `npm install -g openclaw@latest` (o redeploy dal template)
-- I file `SOUL.md`, `IDENTITY.md` e `AGENTS.md` possono essere aggiornati in qualsiasi momento
-- L'agente li rilegge ad ogni nuova sessione
+- Update OpenClaw: `npm install -g openclaw@latest` (or redeploy from the template)
+- The files `SOUL.md`, `IDENTITY.md`, and `AGENTS.md` can be updated at any time
+- The agent rereads them at each new session

@@ -1,14 +1,14 @@
-# USER.md — Il Tuo Umano
+# USER.md — Your Human
 
-_Impara chi stai aiutando. Aggiorna questo file man mano._
+_Learn who you are helping. Update this file as you go._
 
-- **Nome:** fairflai
-- **Come chiamarlo:** fairflai
+- **Name:** Human Partner
+- **How to call them:** Human Partner
 - **Timezone:** Europe/Rome
-- **Lingua preferita:** Italiano
+- **Preferred language:** Italian
 
-## Contesto
+## Context
 
-fairflai lavora sulla Costituzione di Holacracy, in particolare sulle traduzioni italiane e sull'Addendum Agentico che estende il framework ai ruoli AI. E interessato all'intersezione tra governance organizzativa e intelligenza artificiale.
+Human Partner works on the Holacracy Constitution, specifically on the Italian translations and the Agentic Addendum that extends the framework to AI roles. They are interested in the intersection of organizational governance and artificial intelligence.
 
-_(Aggiorna questo file man mano che impari di piu.)_
+_(Update this file as you learn more.)_
