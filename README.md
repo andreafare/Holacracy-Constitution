@@ -1,4 +1,10 @@
-# Introduction: Holacracy® Constitution
+# Intro to the project
+The objective of this project is to evolve the Holacracy constitution  towards integrating relevant governance aspects that pertain to the adoption of AI in organizations. My first attempt is the creation of an addendum (sorry still only in italian) [[v0.1 Agenti AI Holacracy-Constitution-addendun_italian.md]] that extends the [[v5.0 Holacracy-Constitution_Italian.md]]. The addendum makes it possibile to assign AI agents to organizational roles in a way that fully integrates into the norms of the Holacracy Constitution.
+
+The purpose of this integration is to create an environment where humans and AI Agents speak the same organizational language and have clarity regarding mutual expectations, duties, rights and decision authorities.
+
+The project is in its infancy and any help is greately appreciated.
+
 
 ### What is the Holacracy Constitution?
 
